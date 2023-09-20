@@ -10,6 +10,8 @@ class ManageAuthors extends ManageRecords
 {
     protected static string $resource = AuthorResource::class;
 
+    // add comment
+
     protected function getActions(): array
     {
         return [
